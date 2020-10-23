@@ -9,12 +9,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var devLogo: UIImageView!
+    @IBOutlet weak var devsLogo: UIImageView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        devLogo.layer.cornerRadius = 10
-        devLogo.clipsToBounds = true
+        devsLogo.layer.cornerRadius = 10
+        devsLogo.clipsToBounds = true
     }
     
     
